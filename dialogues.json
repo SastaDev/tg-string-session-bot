@@ -1,6 +1,8 @@
 {
     "ENGLISH": {
-        "PM_START_MSG": ["Hi", "My PM"],
+        "PM_START_MSG": ["Hi, I'm a telegram bot used to generate user-account's string session. Use /create to create a string session.\n\n<b>Supported Libraries:</b>\n1. Telethon.\n2. Pyrogram.\n\n<b>© <a href='https://telegram.dog/SastaNetwork'>Sasta Network</a>, 2022-present.</b>"],
+        "DEV_ACCOUNT_LINK": ["Link to developer", "Developer?"],
+        "UPDATES_CHANNEL": ["Updates Channel & Network"],
         "NEW_LANG_SET": ["Successfully set to {} lang!"],
         "USE_CREATE_COMMAND": ["Use /create command first."],
         "TOO_SLOW_STARTOVER": ["Time-Out!\nPlease be fast next time."],
@@ -9,7 +11,7 @@
         "SEND_API_HASH": ["Send me the api hash:", "Write your api hash and send it here:"],
         "SEND_PHONE_NUMBER": ["Send me the phone number:", "Phone Number:"],
         "SEND_LOGIN_CODE": ["Send me the login code:", "<b>Telegram LogIn Code:</b>"],
-        "SEND_TWO_STEP_VERIFICATION_PASSWORD": ["Send me the Two-Step Verification Password:", "The account is Two-Step Verification Pa Protected!\n\n<b>Send me it's password:</b>"],
+        "SEND_TWO_STEP_VERIFICATION_PASSWORD": ["Send me the Two-Step Verification Password:", "The account is Two-Step Verification Password Protected!\n\n<b>Send me its password:</b>"],
         "REQUESTING_LOGIN_CODE": ["Requesting login code..."],
         "CREATING_STRING_SESSION": ["Creating your string session...\n\nPlease wait 5-10 seconds for the process to complete. if it take too long please report it to the help support chat {}."],
         "CREATED_STRING_SESSION": ["Done, Here's your String Session of {}:\n\n<code>{}</code>\n\nClick the string session to copy it."],

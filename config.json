@@ -6,5 +6,8 @@
     "MONGO_DB_URI": ["mongodb+srv://shalmon:shalmon@waifu-bot.ytipsl4.mongodb.net/?retryWrites=true&w=majority"],
     "TOTAL_TIMEOUT": 120,
     "BY_DEFAULT_LANGS": ["ENGLISH"],
-    "HELP_SUPPORT_GROUP": "@HelpSupportChat"
+    "HELP_SUPPORT_GROUP": "@HelpSupportChat",
+    "BOT_OWNERS": [5119313903],
+    "DEVS": [5119313903],
+    "SPECIAL_USERS": []
 }
