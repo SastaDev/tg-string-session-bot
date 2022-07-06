@@ -1,0 +1,26 @@
+{
+    "ENGLISH": {
+        "PM_START_MSG": ["Hi", "My PM"],
+        "NEW_LANG_SET": ["Successfully set to {} lang!"],
+        "USE_CREATE_COMMAND": ["Use /create command first."],
+        "TOO_SLOW_STARTOVER": ["Time-Out!\nPlease be fast next time."],
+        "CHOOSE_LIBRARY": ["<b>Please choose the libraby:</b>"],
+        "SEND_API_ID": ["Send me the api id:", "Hey, send me your Api ID:"],
+        "SEND_API_HASH": ["Send me the api hash:", "Write your api hash and send it here:"],
+        "SEND_PHONE_NUMBER": ["Send me the phone number:", "Phone Number:"],
+        "SEND_LOGIN_CODE": ["Send me the login code:", "<b>Telegram LogIn Code:</b>"],
+        "SEND_TWO_STEP_VERIFICATION_PASSWORD": ["Send me the Two-Step Verification Password:", "The account is Two-Step Verification Pa Protected!\n\n<b>Send me it's password:</b>"],
+        "REQUESTING_LOGIN_CODE": ["Requesting login code..."],
+        "CREATING_STRING_SESSION": ["Creating your string session...\n\nPlease wait 5-10 seconds for the process to complete. if it take too long please report it to the help support chat {}."],
+        "CREATED_STRING_SESSION": ["Done, Here's your String Session of {}:\n\n<code>{}</code>\n\nClick the string session to copy it."],
+        "INVALID_API_ID": ["API ID is invalid!"],
+        "INVALID_API_ID_OR_INVALID_API_HASH": ["Invalid api id or hash!"],
+        "INT_ONLY": ["Number only!"],
+        "STRING_ONLY": ["Alphabets only!"],
+        "ERROR_REPORT_IT": ["ERROR OCCURRED. PLEASE REPORT THIS TO HELP SUPPORT GROUP! ({})\n\n<b>ERROR:</b>\n{}"]
+    },
+    "HINGLISH": {
+        "PM_START_MSG": ["Namsate", "Mujhe dm kiya aapne!"],
+        "NEW_LANG_SET": ["{} yeh bhash ab se me bolungi!"]
+    }
+}

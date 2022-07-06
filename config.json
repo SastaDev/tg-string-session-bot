@@ -1,0 +1,10 @@
+{
+    "SESSION_FILE_NAME": "string_session_bot",
+    "API_ID": 10666280,
+    "API_HASH": "3bea64830006cf8df415fbc33c635931",
+    "BOT_TOKEN": "5365276760:AAEGPzQ3N-fPQWQPk8o-1Hbx21WWMKtokWc",
+    "MONGO_DB_URI": ["mongodb+srv://shalmon:shalmon@waifu-bot.ytipsl4.mongodb.net/?retryWrites=true&w=majority"],
+    "TOTAL_TIMEOUT": 120,
+    "BY_DEFAULT_LANGS": ["ENGLISH"],
+    "HELP_SUPPORT_GROUP": "@HelpSupportChat"
+}
