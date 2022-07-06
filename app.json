@@ -1,0 +1,19 @@
+{
+      "name": "String Session Generater Bot",
+      "description": "",
+      "keywords": [
+         "telegram",
+         "userbot"
+      ],
+    
+   "logo": "",  
+   "repository": "https://github.com/SastaDev/tg-string-session-bot",
+   "addons": [
+          {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ]
+}
