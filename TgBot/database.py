@@ -22,16 +22,16 @@ class MongoDB:
 
     def add_user(self, ID):
         d = self.client['string_session_database']
-        pending = d['total_users']
-        find = list(pending.find({'_id': 'users'}))
+        users = d['total_users']
+        find = list(users.find({'_id': 'total_users'}))
         if ID in find:
             return
-        lang.update_one({'_id': 'users'}, {'$set': {'user_list': [ID]}}, upsert=True)
+        users.update_one({'_id': 'total_users'}, {'$set': {'user_list': [ID]}}, upsert=True)
 
     def get_total_users_list(self):
         d = self.client['string_session_database']
-        pending = d['total_users']
-        find = list(pending.find({'_id': 'total_users'}))
+        users = d['total_users']
+        find = list(users.find({'_id': 'total_users'}))
         return find
 
     def add_blacklist(self, ID):
@@ -40,7 +40,7 @@ class MongoDB:
         find = list(blacklist.find({'_id': 'blacklist'}))
         if ID in find:
             return
-        lang.update_one({'_id': 'blacklist'}, {'$set': {'blacklist_list': [ID]}}, upsert=True)
+        blacklist.update_one({'_id': 'blacklist'}, {'$set': {'blacklist_list': [ID]}}, upsert=True)
 
     def get_blacklist_list(self):
         d = self.client['string_session_database']
@@ -61,3 +61,17 @@ class MongoDB:
         d = client['string_session_database']
         blacklist = d['blacklist']
         blacklist.delete_one({'blacklist_list': [ID]})
+
+    def add_created_string_session(self, ID):
+        d = self.client['string_session_database']
+        ss = d['total_ss_created']
+        find = list(ss.find({'_id': 'user_list'}))
+        if ID in find:
+            return
+        ss.update_one({'_id': 'user_list'}, {'$set': {'user_list': [ID]}}, upsert=True)
+
+    def get_total_ss_created_list(self):
+        d = self.client['string_session_database']
+        ss = d['total_ss_created']
+        find = list(ss.find({'_id': 'user_list'}))
+        return find
